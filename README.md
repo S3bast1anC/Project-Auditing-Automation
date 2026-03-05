@@ -8,6 +8,6 @@
 Extracts all emails matching specific keywords within a date range. Best for quick and easy data gathering.
 - **Output**: Generates a consolidated pdf (`TRANSCRIPT_{CompanyName}.pdf`) and a folder (`{CompanyName} Context Log`) of dated attachments. 
 
-**Ollama Contenxt Log.py** <br>
+<i> **Ollama Contenxt Log.py** </i> <br>
 Integrates a local LLM (Llama 3) to act as a filter. Still 80% Python, 20% AI. Analyzes email subjects and metadata to filter out administrative "noise." It checks a 3 year window (`TARGET_YEAR` $\pm$ 1) to ensure no context is lost from the previous or following years. Better if keywords alone produce too many irrelevant results.
 - **Output**: Produces a sanitized PDF transcript and attachment folder containing only project-relevant research data.
