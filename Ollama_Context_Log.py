@@ -8,7 +8,7 @@ import json
 from datetime import datetime
 from fpdf import FPDF
 
-# ----- FILL OUT -----
+# ------ FILL OUT ------
 COMPANY_NAME = ''
 KEYWORDS = ['']
 TARGET_YEAR = 2025  # AI will look at TARGET_YEAR, TARGET_YEAR-1, and TARGET_YEAR+1
@@ -23,7 +23,7 @@ MODEL_NAME = "llama3:8b-instruct-q8_0"
 
 BASE_OUTPUT_PATH = '' # Set Mac folder path here
 
-# --------------------
+# ---------------------
 
 # --- FOLDER SETUP ---
 SAVE_FOLDER_NAME = f"{COMPANY_NAME} Context Log"
