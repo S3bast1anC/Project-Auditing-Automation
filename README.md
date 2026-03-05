@@ -1,6 +1,6 @@
 # Project-Auditing-Automation
 <b> Requirements </b>
-- 2-Factor Authentication enabled.
+- 2-Factor Authentication enabled on Google account
 - App Password for IMAP access
 - Ollama (if using Context Log.py)
 
