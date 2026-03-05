@@ -2,11 +2,12 @@
 <b> Requirements </b>
 - 2-Factor Authentication enabled on Google account
 - App Password for IMAP access
-- Ollama (if using Ollama Context Log.py)
+- Ollama (Local server must be running if using `Ollama_Context_Log.py`)
 
 **Pyhon-Only Context Log.py** <br>
-Extracts all emails matching specific keywords within a date range. Generates a consolidated pdf (`TRANSCRIPT_{CompanyName}.pdf`) and a folder (`{CompanyName} Context Log`) of dated attachments. 
-
+Extracts all emails matching specific keywords within a date range. Best for quick and easy data gathering.
+- **Output**: Generates a consolidated pdf (`TRANSCRIPT_{CompanyName}.pdf`) and a folder (`{CompanyName} Context Log`) of dated attachments. 
 
 **Ollama Contenxt Log.py** <br>
-Produces files - 
+Integrates a local LLM (Llama 3) to act as a filter. Still 80% Python, 20% AI. It analyzes email subjects and metadata to filter out administrative "noise". Better at Transcript accuracy by checking +-1 the target year to make sure there aren't any emails lost from last year. Better if keywords alone produce too many irrelevant results.
+- **Output**: Produces a sanitized PDF transcript and attachment folder containing only project-relevant research data.
