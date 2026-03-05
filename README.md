@@ -4,7 +4,7 @@
 - App Password for IMAP access
 - Ollama (Local server must be running if using `Ollama_Context_Log.py`)
 
-**Pyhon-Only Context Log.py** <br>
+<i> **Pyhon-Only Context Log.py** </i> <br>
 Extracts all emails matching specific keywords within a date range. Best for quick and easy data gathering.
 - **Output**: Generates a consolidated pdf (`TRANSCRIPT_{CompanyName}.pdf`) and a folder (`{CompanyName} Context Log`) of dated attachments. 
 
